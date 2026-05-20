@@ -33,11 +33,9 @@ class PaginaPrincipal extends StatelessWidget {
       drawer: const Drawer(
         child: Center(child: Text('Menu lateral')),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          
-        ),
+      endDrawer: const Drawer(
+        child: Center(child: Text('menu lateral direito'),),
+   
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
